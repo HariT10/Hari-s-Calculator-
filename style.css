@@ -1,0 +1,56 @@
+body{
+    background-color:beige;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#calculator{
+    margin-top: 50px;
+    background-color: #FAEBD7;
+    border-radius: 10px;
+}
+
+#Title{
+    font-size: 50px;
+    text-align: center;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
+
+button{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#display{
+    
+    background-color: #FAEBD7;
+    width: 500px;
+    height: 90px;
+    margin-top: 50px;
+    margin-bottom: -30px;
+    border: none;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: 50px;
+}
+
+#eachButton{
+    margin-top: 40px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
+#history{
+    cursor: pointer;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
+}
